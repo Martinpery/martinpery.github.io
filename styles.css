@@ -1,0 +1,878 @@
+/* GENERAL */
+
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: arial, sans-serif;
+    font-size: 15px;
+}
+
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+}
+
+h2
+{
+    color:#444;
+    font-size: 40px;
+}
+
+h4
+{
+    font-size: 24px;
+    color: #444;
+}
+
+p
+{
+   line-height: 20px;
+    color: #777;
+}
+
+h3
+{
+    font-size: 30px;
+    color: #444;
+}
+
+
+
+
+
+/* HEADER */
+
+
+
+
+
+header
+{
+    height: 120px;
+    background-color: #e6ffe6;
+}
+
+.image-logo
+{
+    float: left; 
+    height: 110px;
+    width: 310px;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li
+{
+    float: left;
+    display: inline-block;
+}
+
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+header nav ul li a:hover
+{
+    opacity: 0.7;
+}
+
+small
+{
+    font-size: 13px;
+    font-style: italic;
+}
+
+#login{
+    color: green;
+}
+
+
+
+
+
+
+
+/* MAIN MENU */
+
+
+
+
+
+#main-menu
+{
+    height: 600px;
+    background: url(Images/1-main.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main-menu h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 0 40px 0;
+    margin-bottom: 220px;
+}
+
+.button-1
+{
+    width: 120px;
+    height: 50px;
+    display: block;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.button-1:hover
+{
+    background: #02b8dd;
+}
+
+
+
+
+
+/* SECOND MENU */
+
+
+
+
+
+#second-menu ul
+{
+    margin: 40px 0;
+}
+
+#second-menu ul li
+{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#sm-1
+{
+    background: url(Images/1-icon-steps.png) center top;
+    background-repeat: no-repeat;
+    height: 1px;
+    width: 1px;
+    background-size: contain;
+}
+
+#sm-2
+{
+    background: url(Images/2-icon-steps.png) center top;
+    background-repeat: no-repeat;
+    height: 1px;
+    width: 1px;
+    background-size: contain;
+}
+
+#sm-3
+{
+    background: url(Images/3-icon-steps.png) center top;
+    background-repeat: no-repeat;
+    height: 1px;
+    width: 1px;
+    background-size: contain;
+}
+
+#second-menu h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#second-menu p
+{
+    margin-bottom: 20px
+}
+
+
+
+
+
+/* THIRD MENU */
+
+
+
+
+
+#third-menu
+{
+    margin-top: 50px;
+    background-color: #efefef;
+    padding-bottom: 320px;
+    padding-top: 50px
+}
+
+#third-menu article
+{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+
+#third-menu article:first-child
+{
+    margin-right: 20px;
+}
+
+.overlay
+{
+    background: rgba(255,255,255,0.85);
+    height: 100%;
+    width: 190px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+article h4
+{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#third-menu p
+{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.button-2
+{
+    color: #fff;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+
+.button-2:hover
+{
+    color: #fff;
+    background-color: #02b8dd;
+}
+
+
+
+
+
+/* FOURTH-MENU */
+
+
+
+
+
+#fourth-menu
+{
+    padding: 60px 0;
+    text-align: center;
+}
+
+#fourth-menu h3
+{
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 1px solid #02b8dd;
+    padding-bottom: 20px;
+}
+
+form
+{
+    margin: 60px 0 20px 0;
+}
+
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+input[type="text"]
+{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+.button-3
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+.button-3:hover
+{
+    color: #fff;
+    background-color: #444;
+}
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+footer
+{
+    height: 150px;
+    background-color: #444;
+    padding-top: 10px;
+}
+
+footer h1
+{
+    color: #fff;
+    text-align: center;
+}
+
+footer ul li
+{
+    text-align: center;
+}
+
+footer ul li a
+{
+    color: #fff;
+}
+
+footer ul li a:hover
+{
+    opacity: 0.7;
+}
+
+footer ul
+{
+    display: table;
+    margin: 0 auto;
+}
+
+footer #login
+{
+    color: #fff;
+}
+
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0px;
+    color: #777;
+}
+
+#relogic
+{
+    color: #777;
+    text-decoration-line: underline;
+}
+
+.colonne
+{
+    float: left;
+    width: 33.33%;
+}
+
+.footer-logo
+{
+    height: 100%;
+    width: 100%
+}
+
+.pitch
+{
+    text-align: center;
+    font-size: 12px;
+}
+
+.fa
+{
+    padding: 15px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover
+{
+    opacity: 0.7;
+}
+
+.fa-facebook
+{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter
+{
+    background: #55ACEE;
+    color: white;
+}
+
+.colonne-3
+{
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+
+
+
+/* JEU */
+
+
+
+
+
+.jeu h1
+{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.jeu p
+{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#fifth-menu
+{
+    margin-top: 390px;
+    background-color: #efefef;
+    padding-bottom: 320px;
+    padding-top: 50px
+}
+
+#fifth-menu article
+{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+
+#fifth-menu article:first-child
+{
+    margin-right: 20px;
+}
+
+.overlay p
+{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/* CONCEPTION */
+
+
+
+
+
+#main-menu-creation
+{
+    height: 600px;
+    background: url(Images/2-image-article.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main-menu-creation h2
+{
+    color :white;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+}
+
+#main-menu-creation h4
+{
+    color :white;
+    font-weight:normal;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.bg-gris
+{
+	background-color: #EBE9E9;
+}
+
+#third-menu-creation
+{
+    margin-top: 0;
+    background-color: skyblue;
+    padding-bottom: 60px;
+    padding-top: 50px
+}
+
+#third-menu-creation h3
+{
+    color :midnightblue;
+    font-weight:bold;
+    text-align: center;
+    padding: 0 0 30px 0;
+    padding-top: 40px;
+}
+
+#third-menu-creation p
+{
+    color :midnightblue;
+    font-weight:normal;
+    text-align: center;
+    padding: 0 0 20px 0; 
+}
+
+.bloc-flex-dev
+{
+    background-color: midnightblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    box-shadow:2px 2px 10px #000;
+}
+
+.bloc-photo-texte
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: skyblue;
+    flex: 0 0 45%;
+    box-shadow:2px 2px 10px #000;
+}
+
+.bloc-description
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:2px 2px 10px #000;
+    background-color: white;
+}
+
+.bloc-description h4
+{
+    color: midnightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bloc-description p
+{
+    color: midnightblue;
+    text-align: center;
+    font-weight: normal;
+}
+
+ #third-menu-creation h2
+{
+    text-align: center;
+}
+
+.bloc-photo-texte img
+{
+    max-height: 200px;
+	border:5px solid #fff;
+	box-shadow:2px 2px 10px #000;
+}
+
+.bloc-logo-texte
+{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: skyblue;
+    flex: 0 0 25%;
+    box-shadow:2px 2px 10px #000;
+}
+
+
+.bloc-logo-texte img
+{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-height: 150px;
+	border:5px solid #fff;
+	box-shadow:2px 2px 10px #000;
+}
+
+
+
+
+
+/* CONTACT */
+
+
+
+
+
+.contact
+{
+    text-align: center;
+    height: 600px;
+    background: url(Images/2-main.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.contact form
+{
+    margin-bottom: 20px;
+}
+
+.contact label
+{
+    font-weight: bold;
+    font-size: 20px;
+    color:#000;
+    
+}
+
+.contact h3
+{
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.button-4
+{
+    color:#fff;
+    background-color:#ff7a00;
+    padding: 6px 20px;
+    border-style: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight:bold;
+    padding: 11px;
+}
+
+.button-4:hover
+{
+    color:#fff;
+    background-color:#02b8dd;
+}
+
+.contact input
+{
+    margin: 5px 0 5px 0;
+    padding: 10px
+}
+
+.support
+{
+    text-align: center;
+    background-color: #efefef;
+    padding: 50px 0 50px 0;
+}
+
+.support h2
+{
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: black;
+}
+
+.support h5
+{
+    font-size: 35px;
+    color: #000;
+    padding: 10px 0 5px 0;
+}
+
+.support a
+{
+    color: #6d6d6d;
+    font-size: 25px;
+}
+
+.support a:hover
+{
+    color: #8c9eff;
+}
+
+.support h4
+{
+    padding: 30px 0 10px 0;
+    font-size: 35px;
+    color: #000;
+}
+
+.support h6
+{
+    font-size: 25px;
+    color: #616161;
+}
+
+
+
+
+
+/* LOGIN */
+
+
+
+
+
+.container .login, .sign-up
+{
+    float:left;
+    width: 50%;
+    max-height : 300px;
+}
+
+.container
+{
+    background: url(Images/login.jpg);
+    height: 700px;
+}
+
+.container h2
+{
+    color: black;
+}
+
+.container label
+{
+    display: block;
+    margin-top: 10px;
+}
+
+.container input
+{
+    display: block;
+    width: 75%;
+    height:35px;
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.container fieldset
+{
+    border: none;
+}
+
+.container input
+{
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+.container input:focus, input:hover
+{
+    background: #02b8dd;
+    box-shadow: 0px 0px 10px #02b8dd;
+}
+
+.container input:focus
+{
+    outline: none;
+    border: 3px solid #ff7a00;
+}
+
+.container button
+{
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background : #ff7a00;
+    border-bottom: 1.5px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.container .check
+{
+    display: inline-block;
+    float: left;
+    width: auto;
+}
+
+.container input [type="checkbox"]
+{
+    width: 20px;
+    height: 15px;
+    transform: scale(1.2);
+}
