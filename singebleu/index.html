@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Singe bleu</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    
+    <style type="text/css">
+        .aya{
+            Background-image:url(images/aya.png);
+            width:190px;
+            height:190px;
+            float:left;
+        }
+        
+        .biberon{
+            Background-image:url(images/biberon.png);
+            width:190px;
+            height:190px;
+            float:left;
+        }
+        
+        .crois{
+            Background-image:url(images/crois.png);
+            width:190px;
+            height:190px;
+            float:left;
+        }
+        
+        .non{
+            Background-image:url(images/non.png);
+            width:190px;
+            height:190px;
+            float:left;
+        }
+        
+        .raclure{
+            Background-image:url(images/raclure.png);
+            width:190px;
+            height:190px;
+            float:left;
+        }
+        
+        .bleu{
+            Background-image:url(images/bleu.png);
+        }
+    
+    </style>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            
+            $(".aya").hover(
+                function () {
+                    $(this).addClass("bleu");
+                },
+                function () {
+                    $(this).removeClass("bleu");
+                }
+            );
+            
+            $(".biberon").hover(
+                function () {
+                    $(this).addClass("bleu");
+                },
+                function () {
+                    $(this).removeClass("bleu");
+                }
+            );
+            
+            $(".crois").hover(
+                function () {
+                    $(this).addClass("bleu");
+                },
+                function () {
+                    $(this).removeClass("bleu");
+                }
+            );
+            
+            $(".non").hover(
+                function () {
+                    $(this).addClass("bleu");
+                },
+                function () {
+                    $(this).removeClass("bleu");
+                }
+            );
+            
+            $(".raclure").hover(
+                function () {
+                    $(this).addClass("bleu");
+                },
+                function () {
+                    $(this).removeClass("bleu");
+                }
+            );
+            
+        });    
+    
+    </script>
+    
+</head>
+    
+<body>
+    
+    <audio id="ayax">
+        <source src="musiques/aya.mp3">
+    </audio>
+    
+    <audio id="biberonx">
+        <source src="musiques/biberon.mp3">
+    </audio>
+    
+    <audio id="croisx">
+        <source src="musiques/crois.mp3">
+    </audio>
+    
+    <audio id="nonx">
+        <source src="musiques/non.mp3">
+    </audio>
+    
+    <audio id="raclurex">
+        <source src="musiques/raclure.mp3">
+    </audio>
+    
+    <div style="width:380px; margin:auto; margin-top:190px; height:190px">
+    
+        <div onmouseover="document.getElementById('ayax').play()" class="aya"></div>
+        <div onmouseover="document.getElementById('biberonx').play()" class="biberon"></div>
+        <div onmouseover="document.getElementById('croisx').play()" class="crois"></div>
+        <div onmouseover="document.getElementById('nonx').play()" class="non"></div>
+        <div onmouseover="document.getElementById('raclurex').play()" class="raclure"></div>
+    
+    </div>
+
+</body>
+    
+</html>
